@@ -14,12 +14,14 @@ sheet_name = 'DATA'
 df = pd.read_excel(excel_file,
                    sheet_name=sheet_name,
                    usecols='B:D',
-                   header=3)
+                   header=3,
+                   engine='openpyxl')
 
 df_participants = pd.read_excel(excel_file,
                                 sheet_name= sheet_name,
                                 usecols='F:G',
-                                header=3)
+                                header=3,
+                                engine='openpyxl')
 df_participants.dropna(inplace=True)
 
 # --- STREAMLIT SELECTION
