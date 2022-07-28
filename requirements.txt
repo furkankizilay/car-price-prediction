@@ -3,3 +3,4 @@ xlrd<2.0
 Pillow==9.2.0
 plotly==5.3.1
 streamlit==1.11.1
+openpyxl==3.0.7
