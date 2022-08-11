@@ -8,3 +8,7 @@
 
 An end-to-end Machine Learning Project developed to predict car prices. Built with FastAPI, Streamlit and Docker.
 
+You can check out the article on Medium describing in detail how this project was carried out.
+
+https://medium.com/@furkankizilay/end-to-end-machine-learning-project-using-fastapi-streamlit-and-docker-6fda32d25c5d
+
